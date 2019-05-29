@@ -8,8 +8,8 @@ RANDOM_NUMBER = rand
 
 def run_guessing_game
   #guess = nil
-  while true
     puts "Guess a number between 1 and 6."
+  while true
     response = gets.chomp
     if response == "exit"
       puts "Goodbye!"

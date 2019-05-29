@@ -1,5 +1,5 @@
 # Code your solution here!
-
+require "pry"
 #randomly chosen number:
 #RANDOM_NUMBER = 3
 #Oh, well apparently you guys want me to use a specific random number of your own choice!
@@ -17,6 +17,7 @@ def run_guessing_game
     end
     guess = response.to_i
     if guess == RANDOM_NUMBER
+      binding.pry
       puts "You guessed the correct number!"
       break
     else

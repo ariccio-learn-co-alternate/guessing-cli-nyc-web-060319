@@ -16,8 +16,8 @@ def run_guessing_game
       return
     end
     guess = response.to_i
+    binding.pry
     if guess == RANDOM_NUMBER
-      binding.pry
       puts "You guessed the correct number!"
       break
     else

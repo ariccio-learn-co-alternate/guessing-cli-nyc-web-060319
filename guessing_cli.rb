@@ -8,6 +8,7 @@ require "pry"
 
 def run_guessing_game
   #guess = nil
+  RANDOM_NUMBER = rand
   puts "Guess a number between 1 and 6."
   while true
     response = gets.chomp

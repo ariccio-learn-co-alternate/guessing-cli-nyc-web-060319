@@ -3,7 +3,7 @@ require "pry"
 #randomly chosen number:
 #RANDOM_NUMBER = 3
 
-RANDOM_NUMBER = rand
+
 
 
 def run_guessing_game

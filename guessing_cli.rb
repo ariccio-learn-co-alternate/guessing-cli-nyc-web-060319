@@ -18,7 +18,7 @@ def run_guessing_game
     guess = response.to_i
     if guess == RANDOM_NUMBER
       puts "You guessed the correct number!"
-      return
+      break
     else
       puts "The computer guessed #{guess}"
     end

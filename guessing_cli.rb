@@ -19,7 +19,6 @@ def run_guessing_game
     binding.pry
     if guess == RANDOM_NUMBER
       puts "You guessed the correct number!"
-      break
     else
       puts "The computer guessed #{guess}"
     end

@@ -2,8 +2,8 @@
 require "pry"
 #randomly chosen number:
 #RANDOM_NUMBER = 3
-#Oh, well apparently you guys want me to use a specific random number of your own choice!
-RANDOM_NUMBER = 2
+
+RANDOM_NUMBER = rand
 
 
 def run_guessing_game
